@@ -1073,6 +1073,8 @@ public class TestHarness {
 
             } // end of second switch
 
+            scanner.close(); // close scanner
+
             while (input == 2) { // Exit. Don't loop program.
                 System.exit(0);
                 break;
